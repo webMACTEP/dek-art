@@ -376,3 +376,101 @@ body {
    //margin: 96px 0px 0px 0px;
    padding: 96px 0px;
 }
+.services {
+   .it-01 {
+      background: linear-gradient(180deg, #d7f2ff -20.65%, #e9eaf2 100%);
+   }
+   .it-02{
+      background: linear-gradient(180deg, #D8F2FF -22.36%, #ECF5EB 100%);
+
+   }
+   .it-03{
+      background: linear-gradient(180deg, #EFD0F9 -19.22%, #F5ECF4 100%);
+
+   }
+   .it-04{background: linear-gradient(180deg, #D9F3FF -14.58%, #E9EAF2 100%);
+   }
+   .it-05{background: linear-gradient(180deg, #F2D5F6 -16.94%, #F5ECF4 100%);
+   }
+   .it-06{background: linear-gradient(180deg, #C8FED5 -20.83%, #ECF5EB 100%);
+   }
+   .it-07{background: linear-gradient(180deg, #CDEEFF -16.11%, #E9EAF2 100%);
+   }
+   .it-08{background: linear-gradient(180deg, #D8F2FF -22.36%, #ECF5EB 100%);
+   }
+   .it-09{background: linear-gradient(180deg, #C8FED4 -25.42%, #ECF5EB 100%);
+   }
+   .it-10{background: linear-gradient(180deg, #CBFEDD -12.97%, #ECF5EB 100%);
+   }
+   .it-11{background: linear-gradient(180deg, #ECCCFE -22.36%, #F7F0F0 100%);
+   }
+   .it-12{background: linear-gradient(180deg, #D8F2FF -22.36%, #ECF5EB 100%);
+   }
+   a {
+      display: flex;
+      width: 266px;
+      height: 50px;
+      padding: 10px 30px;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      flex-shrink: 0;
+
+      border-radius: 100px;
+      border: 0.5px solid #1d2538;
+      background: #f8f8f8;
+
+      color: #0d0d0e;
+      text-align: center;
+      font-family: Gilroy;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+   }
+   h3 {
+      color: #1d2538;
+
+      /* H2 */
+      font-family: Gilroy;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+
+      flex-grow: 1;
+   }
+   .grid-container {
+      margin: 48px 0px 0px 0px;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 24px;
+   }
+
+   .grid-item {
+      border-radius: 30px;
+      //background: #d9d9d9;
+      padding: 24px;
+      height: 360px;
+
+      display: flex;
+      flex-direction: column;
+   }
+
+   .span-2 {
+      grid-column: span 2;
+   }
+
+   @media (max-width: 768px) {
+      .grid-container {
+         grid-template-columns: repeat(2, 1fr); /* 2 колонки */
+      }
+   }
+
+   @media (max-width: 480px) {
+      .grid-container {
+         grid-template-columns: 1fr; /* 1 колонка */
+      }
+   }
+   padding: 96px 0px;
+}
