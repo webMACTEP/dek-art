@@ -87,6 +87,11 @@ body {
    margin: 20px auto 20px auto;
 }
 .footer {
+   a{
+      &:hover {
+        text-decoration: underline;
+      }
+   }
    .logo {
       img {
          max-width: 206px;
