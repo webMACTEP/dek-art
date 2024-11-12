@@ -292,4 +292,57 @@ body {
   text-decoration-thickness: auto;
   text-underline-offset: auto;
   text-underline-position: from-font;
+}
+
+.intro {
+  margin: 100px 0px 103px 0px;
+}
+.intro ul {
+  display: flex;
+  gap: 24px;
+  margin: 52px 0px 0px 0px;
+}
+.intro ul li {
+  color: #1d2538;
+  font-family: Gilroy;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 20px 32px;
+  width: 196px;
+  border-radius: 30px;
+  border: 0.5px solid #1d2538;
+  background: #f8f8f8;
+}
+.intro ul li span {
+  color: #dea10b;
+  font-family: Gilroy;
+  font-size: 54px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.intro .info {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.intro .animation img {
+  mix-blend-mode: hard-light;
+}
+.intro p {
+  color: #1d2538;
+  /* S0 */
+  font-family: Gilroy;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.intro .wrapper {
+  display: flex;
 }/*# sourceMappingURL=style.css.map */

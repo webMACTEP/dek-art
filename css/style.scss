@@ -5,7 +5,7 @@ body {
    font-family: "Gilroy";
    font-weight: normal;
    font-style: normal;
-   background: url('../img/Rectangle-min.png') #fcf9f2;
+   background: url("../img/Rectangle-min.png") #fcf9f2;
    display: flex;
    flex-direction: column;
 }
@@ -87,9 +87,9 @@ body {
    margin: 20px auto 20px auto;
 }
 .footer {
-   a{
+   a {
       &:hover {
-        text-decoration: underline;
+         text-decoration: underline;
       }
    }
    .logo {
@@ -208,4 +208,59 @@ body {
       text-underline-offset: auto;
       text-underline-position: from-font;
    }
+}
+.intro {
+   ul {
+      li {
+         color: #1d2538;
+         font-family: Gilroy;
+         font-size: 16px;
+         font-style: normal;
+         font-weight: 400;
+         line-height: normal;
+         span {
+            color: #dea10b;
+            font-family: Gilroy;
+            font-size: 54px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+         }
+         display: flex;
+         flex-direction: column;
+         gap: 12px;
+         padding: 20px 32px;
+         width: 196px;
+         border-radius: 30px;
+         border: 0.5px solid #1d2538;
+         background: #f8f8f8;
+      }
+      display: flex;
+      gap: 24px;
+      margin: 52px 0px 0px 0px;
+   }
+   .info {
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+   }
+   .animation {
+      img {
+         mix-blend-mode: hard-light;
+      }
+   }
+   p {
+      color: #1d2538;
+
+      /* S0 */
+      font-family: Gilroy;
+      font-size: 40px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+   }
+   .wrapper {
+      display: flex;
+   }
+   margin: 100px 0px 103px 0px;
 }
