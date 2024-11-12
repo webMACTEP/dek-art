@@ -5,6 +5,7 @@ body {
    font-family: "Gilroy";
    font-weight: normal;
    font-style: normal;
+   background: #FCF9F2;
 }
 h1 {
    color: #1d2538;
@@ -39,4 +40,8 @@ a {
    text-decoration-thickness: auto;
    text-underline-offset: auto;
    text-underline-position: from-font;
+}
+.container{
+   max-width: 1296px;
+   margin: 0px auto;
 }
