@@ -108,13 +108,11 @@ body {
 }
 
 .header {
-  border-radius: 50px;
-  border: 0.5px solid #67787f;
-  background: #f8f8f8;
-  padding: 48px;
-  max-width: -moz-fit-content;
-  max-width: fit-content;
-  margin: 20px auto 20px auto;
+  position: fixed;
+  z-index: 999;
+  left: 0;
+  min-width: 100%;
+  background: linear-gradient(0deg, rgba(252, 249, 242, 0) 0%, #fcf9f2 50%);
 }
 .header .logo img {
   width: 206px;
@@ -175,6 +173,15 @@ body {
   align-items: center;
   gap: 20px;
   width: 1296px;
+}
+.header .wrapper {
+  border-radius: 50px;
+  border: 0.5px solid #67787f;
+  background: #f8f8f8;
+  padding: 48px;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+  margin: 20px auto 20px auto;
 }
 
 .footer {
@@ -260,6 +267,7 @@ body {
 }
 
 .main {
+  padding: 170px 0px 0px 0px;
   flex-grow: 1;
 }
 .main h1 {
@@ -406,7 +414,7 @@ body {
   height: 72px;
 }
 .advantages p {
-  color: #1D2538;
+  color: #1d2538;
   /* Текст М */
   font-family: Gilroy;
   font-size: 16px;
