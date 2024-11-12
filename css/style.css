@@ -97,30 +97,42 @@ body {
   font-family: "Gilroy";
   font-weight: normal;
   font-style: normal;
-  background: #FCF9F2;
+  background: #fcf9f2;
 }
 
-h1 {
+.container {
+  max-width: 1296px;
+  margin: 0px auto;
+}
+
+.header {
+  border-radius: 50px;
+  border: 0.5px solid #67787f;
+  background: #f8f8f8;
+  padding: 48px;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+  margin: 20px auto 0px auto;
+}
+
+.main h1 {
   color: #1d2538;
   font-size: 60px;
   font-weight: 700;
 }
-
-h2 {
+.main h2 {
   color: #1d2538;
   font-size: 40px;
   font-weight: 700;
   line-height: 1.3;
 }
-
-p {
+.main p {
   color: #717171;
   font-size: 20px;
   font-weight: 400;
   line-height: 140%;
 }
-
-a {
+.main a {
   color: #1d2538;
   text-align: center;
   font-size: 18px;
@@ -134,9 +146,4 @@ a {
   text-decoration-thickness: auto;
   text-underline-offset: auto;
   text-underline-position: from-font;
-}
-
-.container {
-  max-width: 1296px;
-  margin: 0px auto;
 }/*# sourceMappingURL=style.css.map */
