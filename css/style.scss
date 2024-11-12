@@ -9,7 +9,6 @@ body {
    display: flex;
    flex-direction: column;
 }
-
 .container {
    max-width: 1296px;
    margin: 0px auto;
@@ -17,7 +16,7 @@ body {
 .header {
    .logo {
       img {
-         max-width: 206px;
+         width: 206px;
       }
    }
    .download {
@@ -94,7 +93,7 @@ body {
    }
    .logo {
       img {
-         max-width: 206px;
+         width: 206px;
       }
    }
    .download {
@@ -209,7 +208,6 @@ body {
       font-weight: 400;
       line-height: 140%;
    }
-   
 }
 .intro {
    ul {
@@ -305,11 +303,63 @@ body {
 
       max-width: 1076px;
    }
-   .container{
+   .container {
       display: flex;
       flex-direction: column;
       align-items: center;
       gap: 36px;
    }
    margin: 100px 0px 0px 0px;
+   padding: 96px 0px;
+}
+.advantages {
+   .img{height: 100%;
+      display: flex;
+      align-items: center;
+   }
+   img{
+      width: 72px;height: 72px;
+   }
+   p{color: #1D2538;
+
+      /* Текст М */
+      font-family: Gilroy;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;}
+   h3 {
+      color: #1d2538;
+
+      /* H2 */
+      font-family: Gilroy;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+   }
+   .info {
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+   }
+   .item {
+      border-radius: 30px;
+      border: 0.5px solid #1d2538;
+      background: #f8f8f8;
+
+      display: flex;
+      width: 636px;
+      padding: 36px;
+      align-items: flex-start;
+      gap: 24px;
+   }
+   .wrapper {
+      margin: 48px 0px 0px 0px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 24px;
+   }
+   //margin: 96px 0px 0px 0px;
+   padding: 96px 0px ;
 }
