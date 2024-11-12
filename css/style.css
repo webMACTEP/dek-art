@@ -98,6 +98,8 @@ body {
   font-weight: normal;
   font-style: normal;
   background: #fcf9f2;
+  display: flex;
+  flex-direction: column;
 }
 
 .container {
@@ -175,6 +177,87 @@ body {
   width: 1296px;
 }
 
+.footer {
+  background: #1d2538;
+  padding: 72px 0px;
+}
+.footer .logo img {
+  max-width: 206px;
+}
+.footer .download {
+  height: 35px;
+  width: 226px;
+  background: url("../img/download.svg") no-repeat;
+  border-radius: 5px;
+  padding: 7px 17px 6px 17px;
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.footer .msgrs {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.footer .buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  gap: 12px;
+}
+.footer .buttons a {
+  display: flex;
+  align-items: center;
+  color: #f8f8f8;
+  font-family: Gilroy;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.13px;
+}
+.footer ul {
+  display: flex;
+  align-items: center;
+}
+.footer ul li a {
+  padding: 15px 20px;
+  color: #f8f8f8;
+  text-align: justify;
+  font-family: Gilroy;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.footer .contacts {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.footer .contacts a {
+  color: #f8f8f8;
+  text-align: justify;
+  font-family: Gilroy;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.footer .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  width: 1296px;
+}
+
+.main {
+  flex-grow: 1;
+}
 .main h1 {
   color: #1d2538;
   font-size: 60px;
