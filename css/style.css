@@ -457,40 +457,40 @@ body {
   padding: 96px 0px;
 }
 .services .it-01 {
-  background: linear-gradient(180deg, #d7f2ff -20.65%, #e9eaf2 100%);
+  background: url("../img/it01.png") no-repeat;
 }
 .services .it-02 {
-  background: linear-gradient(180deg, #D8F2FF -22.36%, #ECF5EB 100%);
+  background: url("../img/it02.png") no-repeat;
 }
 .services .it-03 {
-  background: linear-gradient(180deg, #EFD0F9 -19.22%, #F5ECF4 100%);
+  background: url("../img/it03.png") no-repeat;
 }
 .services .it-04 {
-  background: linear-gradient(180deg, #D9F3FF -14.58%, #E9EAF2 100%);
+  background: url("../img/it04.png") no-repeat;
 }
 .services .it-05 {
-  background: linear-gradient(180deg, #F2D5F6 -16.94%, #F5ECF4 100%);
+  background: url("../img/it05.png") no-repeat;
 }
 .services .it-06 {
-  background: linear-gradient(180deg, #C8FED5 -20.83%, #ECF5EB 100%);
+  background: url("../img/it06.png") no-repeat;
 }
 .services .it-07 {
-  background: linear-gradient(180deg, #CDEEFF -16.11%, #E9EAF2 100%);
+  background: url("../img/it07.png") no-repeat;
 }
 .services .it-08 {
-  background: linear-gradient(180deg, #D8F2FF -22.36%, #ECF5EB 100%);
+  background: url("../img/it08.png") no-repeat;
 }
 .services .it-09 {
-  background: linear-gradient(180deg, #C8FED4 -25.42%, #ECF5EB 100%);
+  background: url("../img/it09.png") no-repeat;
 }
 .services .it-10 {
-  background: linear-gradient(180deg, #CBFEDD -12.97%, #ECF5EB 100%);
+  background: url("../img/it10.png") no-repeat;
 }
 .services .it-11 {
-  background: linear-gradient(180deg, #ECCCFE -22.36%, #F7F0F0 100%);
+  background: url("../img/it11.png") no-repeat;
 }
 .services .it-12 {
-  background: linear-gradient(180deg, #D8F2FF -22.36%, #ECF5EB 100%);
+  background: url("../img/it12.png") no-repeat;
 }
 .services a {
   display: flex;
@@ -529,6 +529,8 @@ body {
   gap: 24px;
 }
 .services .grid-item {
+  background-position: right bottom;
+  background-size: 100%;
   border-radius: 30px;
   padding: 24px;
   height: 360px;
