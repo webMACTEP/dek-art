@@ -112,7 +112,67 @@ body {
   padding: 48px;
   max-width: -moz-fit-content;
   max-width: fit-content;
-  margin: 20px auto 0px auto;
+  margin: 20px auto 20px auto;
+}
+.header .logo img {
+  max-width: 206px;
+}
+.header .download {
+  height: 35px;
+  width: 226px;
+  background: url("../img/download.svg") no-repeat;
+  border-radius: 5px;
+  padding: 7px 17px 6px 17px;
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.header .buttons {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.header .buttons a {
+  display: flex;
+  align-items: center;
+}
+.header ul {
+  display: flex;
+  align-items: center;
+}
+.header ul li a {
+  padding: 15px 20px;
+  color: #1d2538;
+  text-align: justify;
+  font-family: Gilroy;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.header .contacts {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.header .contacts a {
+  color: #1d2538;
+  text-align: justify;
+  font-family: Gilroy;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  width: 1296px;
 }
 
 .main h1 {
