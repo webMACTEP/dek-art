@@ -648,4 +648,48 @@ section {
 }
 .consultation .container {
   width: 1296px;
+}
+
+.portfolio {
+  padding: 96px 0px;
+}
+.portfolio .pagination {
+  min-width: 60px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+}
+.portfolio .sw-navigation {
+  display: flex;
+  align-items: center;
+  gap: 26px;
+}
+.portfolio .swiper-pagination {
+  position: relative;
+}
+.portfolio .wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 48px 0px 32px 0px;
+}
+.portfolio .container a {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+  color: #1d2538;
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  text-decoration-thickness: auto;
+  text-underline-offset: auto;
+  text-underline-position: from-font;
 }/*# sourceMappingURL=style.css.map */
