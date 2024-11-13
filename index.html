@@ -385,18 +385,95 @@
             </div>
             
           </div>
+          
           <div class="swiper-wrapper">
             <!-- Слайды -->
-            <div class="swiper-slide">Слайд 1</div>
-            <div class="swiper-slide">Слайд 2</div>
-            <div class="swiper-slide">Слайд 3</div>
-            <div class="swiper-slide">Слайд 4</div>
-            <div class="swiper-slide">Слайд 5</div>
-            <div class="swiper-slide">Слайд 6</div>
-            <div class="swiper-slide">Слайд 7</div>
-            <div class="swiper-slide">Слайд 8</div>
-            <div class="swiper-slide">Слайд 9</div>
-            <div class="swiper-slide">Слайд 10</div>
+            <div class="swiper-slide">
+              <div class="img"> 
+                <div class="grad"></div>
+                <img src="img/sw01.png" alt="">
+              </div>
+             
+              <div class="info">
+                <div class="mark">Haval</div>
+                <h3>Приложение для розыгрыша скидки на авто</h3>
+                <a href="#">Подробнее</a>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="img"> 
+                <div class="grad"></div>
+                <img src="img/sw01.png" alt="">
+              </div>
+             
+              <div class="info">
+                <div class="mark">Haval</div>
+                <h3>Приложение для розыгрыша скидки на авто</h3>
+                <a href="#">Подробнее</a>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="img"> 
+                <div class="grad"></div>
+                <img src="img/sw01.png" alt="">
+              </div>
+             
+              <div class="info">
+                <div class="mark">Haval</div>
+                <h3>Приложение для розыгрыша скидки на авто</h3>
+                <a href="#">Подробнее</a>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="img"> 
+                <div class="grad"></div>
+                <img src="img/sw01.png" alt="">
+              </div>
+             
+              <div class="info">
+                <div class="mark">Haval</div>
+                <h3>Приложение для розыгрыша скидки на авто</h3>
+                <a href="#">Подробнее</a>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="img"> 
+                <div class="grad"></div>
+                <img src="img/sw01.png" alt="">
+              </div>
+             
+              <div class="info">
+                <div class="mark">Haval</div>
+                <h3>Приложение для розыгрыша скидки на авто</h3>
+                <a href="#">Подробнее</a>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="img"> 
+                <div class="grad"></div>
+                <img src="img/sw01.png" alt="">
+              </div>
+             
+              <div class="info">
+                <div class="mark">Haval</div>
+                <h3>Приложение для розыгрыша скидки на авто</h3>
+                <a href="#">Подробнее</a>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="img"> 
+                <div class="grad"></div>
+                <img src="img/sw01.png" alt="">
+              </div>
+             
+              <div class="info">
+                <div class="mark">Haval</div>
+                <h3>Приложение для розыгрыша скидки на авто</h3>
+                <a href="#">Подробнее</a>
+              </div>
+            </div>
+            
+            
           </div>
         </div>
       </section>
@@ -507,29 +584,24 @@
 
         // Пагинация в формате 1/10
         pagination: {
-          el: ".pagination",
-          type: "fraction",
+          el: '.pagination',
+          type: 'fraction',
           renderFraction: function (currentClass, totalClass) {
-            return (
-              '<span class="' +
-              currentClass +
-              '"></span>' +
-              " / " +
-              '<span class="' +
-              totalClass +
-              '"></span>'
-            );
+              return '<span class="' + currentClass + '"></span>' +
+                     ' / ' +
+                     '<span class="' + totalClass + '"></span>';
           },
-        },
+      },
 
         // Навигационные кнопки
         navigation: {
           nextEl: ".button-next",
           prevEl: ".button-prev",
         },
+        //centeredSlides: true,
 
         // Количество слайдов для отображения
-        slidesPerView: 5, // По умолчанию 5 слайдов на десктопах
+        slidesPerView: 3.5, // По умолчанию 5 слайдов на десктопах
         spaceBetween: 24, // Промежуток между слайдами в пикселях
 
         // Адаптивные настройки
@@ -546,7 +618,7 @@
           },
           // Когда окно браузера >= 1024px
           1024: {
-            slidesPerView: 5,
+            slidesPerView: 3,
             spaceBetween: 24,
           },
         },
