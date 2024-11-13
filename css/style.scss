@@ -9,6 +9,30 @@ body {
    display: flex;
    flex-direction: column;
 }
+section {
+   background-image:
+   linear-gradient(to bottom, rgba(103, 120, 127, 0.2), rgba(103, 120, 127, 0.2)),
+   linear-gradient(to bottom, rgba(103, 120, 127, 0.2), rgba(103, 120, 127, 0.2)),
+   linear-gradient(to bottom, rgba(103, 120, 127, 0.2), rgba(103, 120, 127, 0.2)),
+   linear-gradient(to bottom, rgba(103, 120, 127, 0.2), rgba(103, 120, 127, 0.2)),
+   linear-gradient(to bottom, rgba(103, 120, 127, 0.2), rgba(103, 120, 127, 0.2)),
+   linear-gradient(to bottom, rgba(103, 120, 127, 0.2), rgba(103, 120, 127, 0.2)),
+   linear-gradient(to bottom, rgba(103, 120, 127, 0.2), rgba(103, 120, 127, 0.2));
+
+
+   background-position:
+      12.5% 0,
+      25% 0,
+      37.5% 0,
+      50% 0,
+      62.5% 0,
+      75% 0,
+      87.5% 0;
+
+   background-repeat: no-repeat;
+
+   background-size: 1px 100%;
+}
 .container {
    max-width: 1296px;
    margin: 0px auto;
@@ -271,7 +295,7 @@ body {
    .wrapper {
       display: flex;
    }
-   margin: 100px 0px 0px 0px;
+   padding: 96px 0px 96px 0px;
 }
 .about-us {
    .buttons {
@@ -318,8 +342,7 @@ body {
       align-items: center;
       gap: 36px;
    }
-   margin: 100px 0px 0px 0px;
-   padding: 96px 0px;
+   padding: 96px 0px 96px 0px;
 }
 .advantages {
    .img {
@@ -379,53 +402,51 @@ body {
 .services {
    .it-01 {
       //background: linear-gradient(180deg, #d7f2ff -20.65%, #e9eaf2 100%);
-      background: url('../img/it01.png') no-repeat;
-     
+      background: url("../img/it01.png") no-repeat;
    }
    .it-02 {
       //background: linear-gradient(180deg, #d8f2ff -22.36%, #ecf5eb 100%);
-      background: url('../img/it02.png') no-repeat;
-      
+      background: url("../img/it02.png") no-repeat;
    }
    .it-03 {
       //background: linear-gradient(180deg, #efd0f9 -19.22%, #f5ecf4 100%);
-      background: url('../img/it03.png') no-repeat;
+      background: url("../img/it03.png") no-repeat;
    }
    .it-04 {
       //background: linear-gradient(180deg, #d9f3ff -14.58%, #e9eaf2 100%);
-      background: url('../img/it04.png') no-repeat;
+      background: url("../img/it04.png") no-repeat;
    }
    .it-05 {
       //background: linear-gradient(180deg, #f2d5f6 -16.94%, #f5ecf4 100%);
-      background: url('../img/it05.png') no-repeat;
+      background: url("../img/it05.png") no-repeat;
    }
    .it-06 {
       //background: linear-gradient(180deg, #c8fed5 -20.83%, #ecf5eb 100%);
-      background: url('../img/it06.png') no-repeat;
+      background: url("../img/it06.png") no-repeat;
    }
    .it-07 {
       //background: linear-gradient(180deg, #cdeeff -16.11%, #e9eaf2 100%);
-      background: url('../img/it07.png') no-repeat;
+      background: url("../img/it07.png") no-repeat;
    }
    .it-08 {
       //background: linear-gradient(180deg, #d8f2ff -22.36%, #ecf5eb 100%);
-      background: url('../img/it08.png') no-repeat;
+      background: url("../img/it08.png") no-repeat;
    }
    .it-09 {
       //background: linear-gradient(180deg, #c8fed4 -25.42%, #ecf5eb 100%);
-      background: url('../img/it09.png') no-repeat;
+      background: url("../img/it09.png") no-repeat;
    }
    .it-10 {
       //background: linear-gradient(180deg, #cbfedd -12.97%, #ecf5eb 100%);
-      background: url('../img/it10.png') no-repeat;
+      background: url("../img/it10.png") no-repeat;
    }
    .it-11 {
       //background: linear-gradient(180deg, #ecccfe -22.36%, #f7f0f0 100%);
-      background: url('../img/it11.png') no-repeat;
+      background: url("../img/it11.png") no-repeat;
    }
    .it-12 {
       //background: linear-gradient(180deg, #d8f2ff -22.36%, #ecf5eb 100%);
-      background: url('../img/it12.png') no-repeat;
+      background: url("../img/it12.png") no-repeat;
    }
    a {
       display: flex;
@@ -464,7 +485,8 @@ body {
    .grid-container {
       margin: 48px 0px 0px 0px;
       display: grid;
-      grid-template-columns: repeat(4, 1fr);
+      grid-template-columns: repeat(4, calc((100% - 3 * 24px) / 4)); /* Учитываем 3 промежутка по 24px */
+    
       gap: 24px;
    }
 
