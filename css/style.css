@@ -653,6 +653,15 @@ section {
 .portfolio {
   padding: 96px 0px;
 }
+.portfolio .button-prev, .portfolio .button-next {
+  cursor: pointer;
+}
+.portfolio .swiper-button-disabled svg rect {
+  stroke: #BFBFBF;
+}
+.portfolio .swiper-button-disabled svg path {
+  fill: #BFBFBF;
+}
 .portfolio .pagination {
   min-width: 60px;
   text-align: center;
