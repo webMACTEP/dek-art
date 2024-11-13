@@ -555,4 +555,97 @@ section {
   .services .grid-container {
     grid-template-columns: 1fr; /* 1 колонка */
   }
+}
+
+.consultation {
+  padding: 23px 0px;
+}
+.consultation .buttons {
+  display: flex;
+  gap: 36px;
+}
+.consultation .buttons a {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+  color: #1d2538;
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  text-decoration-thickness: auto;
+  text-underline-offset: auto;
+  text-underline-position: from-font;
+}
+.consultation .msgrs {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  max-height: 50px;
+}
+.consultation .col {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.consultation .col a {
+  color: #1d2538;
+  text-align: justify;
+  font-family: Gilroy;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.consultation .contacts {
+  flex-grow: 1;
+  display: flex;
+  gap: 24px;
+}
+.consultation .info {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  max-width: 746px;
+}
+.consultation .name {
+  color: #717171;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.consultation .name span {
+  font-size: 20px;
+  color: #1d2538;
+}
+.consultation .expert {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.consultation .img img {
+  max-width: 262px;
+}
+.consultation .row {
+  display: flex;
+  justify-content: space-between;
+}
+.consultation .wrapper {
+  border-radius: 50px;
+  border: 0.5px solid #67787f;
+  background: #f8f8f8;
+  padding: 48px;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+  margin: 0px auto;
+}
+.consultation .container {
+  width: 1296px;
 }/*# sourceMappingURL=style.css.map */

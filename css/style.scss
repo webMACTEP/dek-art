@@ -10,15 +10,13 @@ body {
    flex-direction: column;
 }
 section {
-   background-image:
-   linear-gradient(to bottom, rgba(103, 120, 127, 0.2), rgba(103, 120, 127, 0.2)),
-   linear-gradient(to bottom, rgba(103, 120, 127, 0.2), rgba(103, 120, 127, 0.2)),
-   linear-gradient(to bottom, rgba(103, 120, 127, 0.2), rgba(103, 120, 127, 0.2)),
-   linear-gradient(to bottom, rgba(103, 120, 127, 0.2), rgba(103, 120, 127, 0.2)),
-   linear-gradient(to bottom, rgba(103, 120, 127, 0.2), rgba(103, 120, 127, 0.2)),
-   linear-gradient(to bottom, rgba(103, 120, 127, 0.2), rgba(103, 120, 127, 0.2)),
-   linear-gradient(to bottom, rgba(103, 120, 127, 0.2), rgba(103, 120, 127, 0.2));
-
+   background-image: linear-gradient(to bottom, rgba(103, 120, 127, 0.2), rgba(103, 120, 127, 0.2)),
+      linear-gradient(to bottom, rgba(103, 120, 127, 0.2), rgba(103, 120, 127, 0.2)),
+      linear-gradient(to bottom, rgba(103, 120, 127, 0.2), rgba(103, 120, 127, 0.2)),
+      linear-gradient(to bottom, rgba(103, 120, 127, 0.2), rgba(103, 120, 127, 0.2)),
+      linear-gradient(to bottom, rgba(103, 120, 127, 0.2), rgba(103, 120, 127, 0.2)),
+      linear-gradient(to bottom, rgba(103, 120, 127, 0.2), rgba(103, 120, 127, 0.2)),
+      linear-gradient(to bottom, rgba(103, 120, 127, 0.2), rgba(103, 120, 127, 0.2));
 
    background-position:
       1% 0,
@@ -486,7 +484,7 @@ section {
       margin: 48px 0px 0px 0px;
       display: grid;
       grid-template-columns: repeat(4, calc((100% - 3 * 24px) / 4)); /* Учитываем 3 промежутка по 24px */
-    
+
       gap: 24px;
    }
 
@@ -518,4 +516,98 @@ section {
       }
    }
    padding: 96px 0px;
+}
+.consultation {
+   .buttons{
+      display: flex;
+      gap: 36px;
+      a {
+         display: flex;
+         align-items: center;
+         gap: 12px;
+         max-width: fit-content;
+         color: #1d2538;
+         text-align: center;
+         font-size: 18px;
+         font-style: normal;
+         font-weight: 700;
+         line-height: normal;
+         text-decoration-line: underline;
+         text-decoration-style: solid;
+         text-decoration-skip-ink: none;
+         text-decoration-thickness: auto;
+         text-underline-offset: auto;
+         text-underline-position: from-font;
+      }
+   }
+   .msgrs{
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      max-height: 50px;
+   }
+   .col{
+     
+      a {
+         color: #1d2538;
+         text-align: justify;
+         font-family: Gilroy;
+         font-size: 18px;
+         font-style: normal;
+         font-weight: 600;
+         line-height: normal;
+      }
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+   }
+   .contacts{
+      flex-grow: 1;
+      display: flex;
+      //align-items: center;
+      gap: 24px;
+   }
+   .info {
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+
+      max-width: 746px;
+   }
+   .name {
+      span {
+         font-size: 20px;
+         color: #1d2538;
+      }
+      color: #717171;
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+   }
+   .expert {
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+   }
+   .img {
+      img {
+         max-width: 262px;
+      }
+   }
+   .row {
+      display: flex;
+      justify-content: space-between;
+   }
+   .wrapper {
+      border-radius: 50px;
+      border: 0.5px solid #67787f;
+      background: #f8f8f8;
+      padding: 48px;
+      max-width: fit-content;
+      margin: 0px auto;
+   }
+   .container {
+      width: 1296px;
+   }
+   padding: 23px 0px;
 }
