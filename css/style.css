@@ -651,10 +651,21 @@ section {
 }
 
 .portfolio {
+  position: relative;
   padding: 96px 0px;
 }
+.portfolio::after {
+  content: "";
+  position: absolute;
+  z-index: 888;
+  right: 0;
+  top: 272px;
+  width: 220px;
+  height: 712px;
+  background: linear-gradient(270deg, #fcf9f2 17.5%, rgba(252, 249, 242, 0) 100%);
+}
 .portfolio .swiper-container {
-  max-width: 1300px;
+  max-width: 1296px;
   margin: 0px auto 0px auto;
 }
 .portfolio .swiper-slide {

@@ -611,19 +611,24 @@ section {
    padding: 23px 0px;
 }
 .portfolio {
-   .swiper-container{
+   position: relative;
+   &::after {
+      content: "";
+      position: absolute;
+      z-index: 888;
+      right: 0;
+      top: 272px;
+      width: 220px;
+      height: 712px;
+      background: linear-gradient(270deg, #fcf9f2 17.5%, rgba(252, 249, 242, 0) 100%);
+   }
+   .swiper-container {
       //overflow: hidden;
-      max-width: 1300px;
+      max-width: 1296px;
       margin: 0px auto 0px auto;
    }
-   .swiper-wrapper{
-      //left: calc(50% - 1300px) ;
-      //max-width: 1300px;
-     //margin: 0px auto 0px auto;
-      
-   }
+
    .swiper-slide {
-      
       .info {
          .mark {
             color: #f8f8f8;
