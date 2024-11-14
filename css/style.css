@@ -660,6 +660,22 @@ section.nolines {
   position: relative;
   padding: 96px 0px;
 }
+.portfolio.portfolio-page .container a {
+  max-width: 100%;
+  text-decoration: none;
+}
+.portfolio.portfolio-page::after {
+  display: none;
+}
+.portfolio .cases {
+  margin: 48px 0px 0px 0px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+.portfolio .cases .swiper-slide {
+  width: calc(33.333% - 16px);
+}
 .portfolio::after {
   content: "";
   position: absolute;

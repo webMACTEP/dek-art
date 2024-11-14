@@ -616,6 +616,27 @@ section {
    padding: 23px 0px;
 }
 .portfolio {
+
+   &.portfolio-page{
+      .container{
+         a{
+            max-width: 100%;
+            text-decoration: none;
+         }
+      }
+      &::after{
+         display: none;
+      }
+   }
+   .cases{
+      margin: 48px 0px 0px 0px;
+      .swiper-slide{
+         width: calc(33.333% - 16px) ;
+      }
+      display: flex;
+      flex-wrap: wrap;
+      gap: 24px;
+   }
    overflow: hidden;
    position: relative;
    &::after {
