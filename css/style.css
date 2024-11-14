@@ -1057,4 +1057,46 @@ section.nolines {
   display: flex;
   flex-direction: column;
   gap: 72px;
+}
+
+.example {
+  padding: 96px 0px;
+}
+.example .info {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.example span {
+  color: #1d2538;
+  /* H2 */
+  font-family: Gilroy;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.example .item {
+  flex-grow: 1;
+  display: flex;
+  padding: 36px;
+  gap: 24px;
+  border-radius: 30px;
+  border: 0.5px solid #1d2538;
+  background: #f8f8f8;
+}
+.example .item .img {
+  padding: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.example .item .img img {
+  width: 72px;
+  height: 72px;
+}
+.example .wrapper {
+  margin: 48px 0px 0px 0px;
+  display: flex;
+  gap: 24px;
 }/*# sourceMappingURL=style.css.map */
