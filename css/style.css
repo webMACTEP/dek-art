@@ -1014,4 +1014,47 @@ section.nolines {
   width: 444.213px;
   height: 428px;
   flex-shrink: 0;
+}
+
+.stages .rows {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  color: #1d2538;
+  /* H2 */
+  font-family: Gilroy;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.stages .rows span {
+  color: #67787f;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: Gilroy;
+  font-size: 75px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.stages .item {
+  flex-grow: 1;
+  color: #1d2538;
+  /* Текст Б */
+  font-family: Gilroy;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 28px */
+}
+.stages .row-wrapp {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+.stages .items {
+  display: flex;
+  flex-direction: column;
+  gap: 72px;
 }/*# sourceMappingURL=style.css.map */
