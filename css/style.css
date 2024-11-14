@@ -1085,8 +1085,6 @@ section.nolines {
 }
 .example span {
   color: #1d2538;
-  /* H2 */
-  font-family: Gilroy;
   font-size: 20px;
   font-style: normal;
   font-weight: 700;
