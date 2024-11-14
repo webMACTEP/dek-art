@@ -912,4 +912,17 @@ section.nolines {
 }
 .apps h2 {
   margin: 0px 0px 48px 0px;
+}
+
+.list {
+  padding: 100px 0px;
+}
+.list a {
+  font-size: 20px;
+}
+.list ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
 }/*# sourceMappingURL=style.css.map */
