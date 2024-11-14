@@ -10,6 +10,8 @@ body {
    flex-direction: column;
 }
 section {
+   position: relative;
+   overflow: hidden;
    &.nolines {
       background-image: none;
    }
@@ -984,4 +986,15 @@ section {
    background: #f8f8f8;
 
    max-width: fit-content;
+}
+.decor-02 {
+   
+
+   position: absolute;
+   left: -50px;
+   bottom: 428px;
+
+   width: 444.213px;
+   height: 428px;
+   flex-shrink: 0;
 }
