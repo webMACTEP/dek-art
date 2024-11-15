@@ -1234,6 +1234,7 @@ section.nolines {
   justify-content: space-between;
 }
 .prices ul {
+  max-width: 295px;
   display: flex;
   flex-direction: column;
   gap: 10px;
