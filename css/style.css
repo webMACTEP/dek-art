@@ -1159,4 +1159,48 @@ section.nolines {
   flex-wrap: wrap;
   justify-content: center;
   gap: 24px;
+}
+
+.wecan {
+  padding: 96px 0px;
+}
+.wecan p {
+  color: #717171;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.wecan h3 {
+  min-height: 50px;
+  color: #1d2538;
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.wecan .info {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: center;
+  height: 100%;
+}
+.wecan .item {
+  --size: 102px;
+  background: linear-gradient(#1d2538 var(--size), transparent 0 calc(100% - var(--size)), #1d2538 0) 0 0/0.5px 100%, linear-gradient(#1d2538 var(--size), transparent 0 calc(100% - var(--size)), #1d2538 0) 100% 0/0.5px 100%, linear-gradient(to right, #1d2538 var(--size), transparent 0 calc(100% - var(--size)), #1d2538 0) 0 0/100% 0.5px, linear-gradient(to right, #1d2538 var(--size), transparent 0 calc(100% - var(--size)), #1d2538 0) 0 100%/100% 0.5px;
+  background-repeat: no-repeat;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+  align-items: center;
+  flex: 1;
+}
+.wecan .wrapper {
+  display: flex;
+  gap: 24px;
+  margin: 48px 0px 0px 0px;
 }/*# sourceMappingURL=style.css.map */
