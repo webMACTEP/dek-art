@@ -616,22 +616,21 @@ section {
    padding: 23px 0px;
 }
 .portfolio {
-
-   &.portfolio-page{
-      .container{
-         a{
+   &.portfolio-page {
+      .container {
+         a {
             max-width: 100%;
             text-decoration: none;
          }
       }
-      &::after{
+      &::after {
          display: none;
       }
    }
-   .cases{
+   .cases {
       margin: 48px 0px 0px 0px;
-      .swiper-slide{
-         width: calc(33.333% - 16px) ;
+      .swiper-slide {
+         width: calc(33.333% - 16px);
       }
       display: flex;
       flex-wrap: wrap;
@@ -1103,6 +1102,52 @@ section {
    .wrapper {
       margin: 48px 0px 0px 0px;
       display: flex;
+      gap: 24px;
+   }
+   padding: 96px 0px;
+}
+.team {
+   .img {
+      img{
+         filter: grayscale(100%);
+         width: 100%;
+         object-fit: cover;
+      }
+      overflow: hidden;
+      width: 306px;
+      height: 285px;
+      border-radius: 30px;
+      border: 0.5px solid #1d2538;
+   }
+   .info {
+      span {
+         color: #1d2538;
+
+         font-size: 20px;
+         font-style: normal;
+         font-weight: 400;
+         line-height: 140%; /* 28px */
+      }
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      color: #717171;
+
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+   }
+   .item {
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+   }
+   .wrapper {
+      margin: 48px 0px 0px 0px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
       gap: 24px;
    }
    padding: 96px 0px;

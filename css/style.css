@@ -1113,4 +1113,50 @@ section.nolines {
   margin: 48px 0px 0px 0px;
   display: flex;
   gap: 24px;
+}
+
+.team {
+  padding: 96px 0px;
+}
+.team .img {
+  overflow: hidden;
+  width: 306px;
+  height: 285px;
+  border-radius: 30px;
+  border: 0.5px solid #1d2538;
+}
+.team .img img {
+  filter: grayscale(100%);
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.team .info {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  color: #717171;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.team .info span {
+  color: #1d2538;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 28px */
+}
+.team .item {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.team .wrapper {
+  margin: 48px 0px 0px 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
 }/*# sourceMappingURL=style.css.map */
