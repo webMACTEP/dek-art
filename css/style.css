@@ -1245,7 +1245,7 @@ section.nolines {
   line-height: normal;
 }
 .prices ul li {
-  list-style-type: circle;
+  list-style-type: disc;
 }
 .prices .item {
   flex: 1;
@@ -1276,4 +1276,73 @@ section.nolines {
   font-weight: 400;
   line-height: 140%; /* 28px */
   margin: 48px 0px;
+}
+
+.how {
+  padding: 96px 0px;
+}
+.how .num {
+  color: #dea10b;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: Gilroy;
+  font-size: 75px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.how .num.num-01 {
+  opacity: 0.35;
+}
+.how .num.num-02 {
+  opacity: 0.5;
+}
+.how .num.num-03 {
+  opacity: 0.75;
+}
+.how ul {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.how ul li {
+  margin: 0px 0px 0px 30px;
+  list-style-type: disc;
+  color: #1d2538;
+  /* Текст Б */
+  font-family: Gilroy;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 28px */
+}
+.how .info {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.how h3 {
+  color: #1d2538;
+  /* H2 */
+  font-family: Gilroy;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.how .item {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2509803922);
+  padding: 36px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+}
+.how .item:first-child {
+  border-top: 1px solid rgba(0, 0, 0, 0.2509803922);
+}
+.how .wrapper {
+  display: flex;
+  flex-direction: column;
+  margin: 48px 0px 0px 0px;
 }/*# sourceMappingURL=style.css.map */
