@@ -821,29 +821,6 @@ section.nolines {
   position: relative;
   overflow: hidden;
 }
-.reviews .rect02 {
-  position: absolute;
-  bottom: 30px;
-  right: -200px;
-  width: 411.125px;
-  height: 223.918px;
-  flex-shrink: 0;
-  border-radius: 411.125px;
-  background: linear-gradient(180deg, rgba(102, 166, 255, 0.5) 0%, rgba(255, 255, 255, 0) 100%);
-  filter: blur(50px);
-}
-.reviews .rect01 {
-  position: absolute;
-  z-index: 0;
-  top: 120px;
-  left: calc(50% - 600px);
-  width: 347.22px;
-  height: 189.112px;
-  flex-shrink: 0;
-  border-radius: 347.22px;
-  background: rgba(100, 97, 252, 0.3);
-  filter: blur(80px);
-}
 .reviews h2 {
   margin: 0px 0px 48px 0px;
 }
@@ -889,8 +866,6 @@ section.nolines {
 .reviews .wrapper {
   position: relative;
   z-index: 2;
-  padding: 96px 0px;
-  background: rgba(13, 163, 189, 0.13);
 }
 
 .apps {
@@ -1070,6 +1045,7 @@ section.nolines {
   gap: 24px;
 }
 .stages .items {
+  margin: 72px 0px 0px 0px;
   display: flex;
   flex-direction: column;
   gap: 72px;
